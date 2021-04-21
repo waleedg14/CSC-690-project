@@ -1,3 +1,5 @@
 # CSC-690-project
 ###Waleed Ghaleb and Victor Callejas
-In this final project my partner and I made an Augmented Reality application. This gives a variety of around globe Endangered Animals available for viewing in 3D. The ultimate goal of this mobile application is to raise awareness, to make the majority of the public be involved in the fight against wildlife trafficking. 
+
+
+In this final project, work devideed by both partner, Victor and Waleed, we decided on creating a AR (Augmented Reality) application to be able to view endangered animals. Its an attempt to bring awareness of wild life trafficking. This app will allow the users to view specific animals that are endangered and allowing the users to see the beauty and need of preserving these animals.
