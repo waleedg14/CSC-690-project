@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "62E0B83D-5665-4F22-9CF6-4ABB56291E9D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12FAA019-039F-419E-99D7-08AE86B18CB7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Wildify/wildLawsDetailVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "12FAA019-039F-419E-99D7-08AE86B18CB7 - d3a0510b2880960e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wildify.wildLawsDetailVC.titleDescription.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Wildify"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Applications/obito/Wildify/wildLawsDetailVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "12FAA019-039F-419E-99D7-08AE86B18CB7 - 182467e77999327a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wildify.wildLawsDetailVC.titleDescription.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Wildify"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Applications/obito/Wildify/wildLawsDetailVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "12FAA019-039F-419E-99D7-08AE86B18CB7 - ec1c59c62a81f13b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wildify.wildLawsDetailVC.titleDescription.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Wildify"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Applications/obito/Wildify/wildLawsDetailVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "12FAA019-039F-419E-99D7-08AE86B18CB7 - d4d271fcae399518"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wildify.wildLawsDetailVC.titleDescription.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Wildify"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Applications/obito/Wildify/wildLawsDetailVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "12FAA019-039F-419E-99D7-08AE86B18CB7 - cbad515ce01e7e28"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wildify.wildLawsDetailVC.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Wildify.wildLawsDetailVC"
+                  moduleName = "Wildify"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Applications/obito/Wildify/wildLawsDetailVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "495">
+               </Location>
+               <Location
+                  uuid = "12FAA019-039F-419E-99D7-08AE86B18CB7 - 84608f19db615df4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Wildify.wildLawsDetailVC.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Wildify.wildLawsDetailVC&gt;"
+                  moduleName = "Wildify"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Applications/obito/Wildify/wildLawsDetailVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "439">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
