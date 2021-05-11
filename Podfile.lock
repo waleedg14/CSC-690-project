@@ -1,0 +1,48 @@
+PODS:
+  - Alamofire (5.4.1)
+  - CardSlider (0.1.0)
+  - Cosmos (23.0.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - SDWebImage (5.10.2):
+    - SDWebImage/Core (= 5.10.2)
+  - SDWebImage/Core (5.10.2)
+  - SwiftMessages (9.0.0):
+    - SwiftMessages/App (= 9.0.0)
+  - SwiftMessages/App (9.0.0)
+  - SwiftyJSON (5.0.0)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - CardSlider
+  - Cosmos
+  - IQKeyboardManagerSwift
+  - SDWebImage
+  - SwiftMessages
+  - SwiftyJSON
+  - Toast-Swift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CardSlider
+    - Cosmos
+    - IQKeyboardManagerSwift
+    - SDWebImage
+    - SwiftMessages
+    - SwiftyJSON
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  CardSlider: 0a8f5f17f5a76701771794b07fdaeddc512358c8
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  SDWebImage: b969dcfc02c40a5da71eac0b03b8f1a0c794a86f
+  SwiftMessages: 55274ca3a239062398603008ed81924cfd1fe798
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: 08ba16daf269eb2f5f0a9466118a8ed0ecb36447
+
+COCOAPODS: 1.10.1
